@@ -1,0 +1,7 @@
+C:\Users\gustavo.tanamati\source\repos\Prova-prática\Prova-prática\bin\Debug\Prova-prática.exe.config
+C:\Users\gustavo.tanamati\source\repos\Prova-prática\Prova-prática\bin\Debug\Prova-prática.exe
+C:\Users\gustavo.tanamati\source\repos\Prova-prática\Prova-prática\bin\Debug\Prova-prática.pdb
+C:\Users\gustavo.tanamati\source\repos\Prova-prática\Prova-prática\obj\Debug\Prova-prática.csprojAssemblyReference.cache
+C:\Users\gustavo.tanamati\source\repos\Prova-prática\Prova-prática\obj\Debug\Prova-prática.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.tanamati\source\repos\Prova-prática\Prova-prática\obj\Debug\Prova-prática.exe
+C:\Users\gustavo.tanamati\source\repos\Prova-prática\Prova-prática\obj\Debug\Prova-prática.pdb
