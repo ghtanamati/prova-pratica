@@ -217,7 +217,7 @@ namespace Prova_prática
             } while (j != 1);
         }*/
 
-        /*EXERCÍCIO 3.2
+        /*EXERCÍCIO 3.2*/
         static void Main(string[] args)
         {
             Console.WriteLine("Insira o tamanho da lista a ser analisada");
@@ -248,6 +248,6 @@ namespace Prova_prática
             Console.WriteLine($"\n{countIn} in");
             Console.WriteLine($"{countOut} out");
 
-        }*/
+        }
     }
 }
