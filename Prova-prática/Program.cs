@@ -160,5 +160,94 @@ namespace Prova_prática
 
             Console.WriteLine($"Total: R$ {total}");
         }*/
+
+
+        /*EXERCÍCIO 2.2
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Insira os três coeficientes de uma equação do segundo grau!");
+
+            string stringEntradas = Console.ReadLine();
+
+            string[] arrayEntradas = stringEntradas.Split(' ');
+
+            double a = Convert.ToDouble(arrayEntradas[0]);
+            double b = Convert.ToDouble(arrayEntradas[1]);
+            double c = Convert.ToDouble(arrayEntradas[2]);
+            double delta = (b * b) - (4 * a * c);
+
+            if (a == 0)
+            {
+                Console.WriteLine("Impossível de calcular");
+            }
+            else if(delta < 0)
+            {
+                Console.WriteLine("Imposível de calcular");
+            }
+            else
+            {
+                double sqr_delta = Math.Sqrt(delta);
+                double x1 = (-b + (sqr_delta)) / (2 * a);
+                double x2 = (-b - (sqr_delta)) / (2 * a);
+
+                Console.WriteLine($"x1 = {x1}");
+                Console.WriteLine($"x2 = {x2}");
+            }
+        }*/
+
+        /*EXERCÍCIO 3.1
+        static void Main(string[] args)
+        {
+            int j = 0;
+            do
+            {
+                Console.WriteLine("Insira a senha");
+                string senha = Console.ReadLine();
+
+                if (senha == "2002")
+                {
+                    Console.WriteLine("Acesso Permitido");
+                    j = 1;
+                }
+                else
+                {
+                    Console.WriteLine("Senha Inválida\n");
+                    j = 0;
+                }
+            } while (j != 1);
+        }*/
+
+        /*EXERCÍCIO 3.2
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Insira o tamanho da lista a ser analisada");
+            int n = Convert.ToInt32(Console.ReadLine());
+            int[] arrayDosNumeros = new int[n];
+
+            Console.WriteLine("Insira os elementos da lista");
+            for (int i = 0; i < n; i++)
+            {
+                int elemento = Convert.ToInt32(Console.ReadLine());
+                arrayDosNumeros[i] = elemento;
+            }
+
+            int countIn = 0;
+            int countOut = 0;
+            foreach (int numero in arrayDosNumeros)
+            {
+                if (numero >= 10 && numero <=20)
+                {
+                    countIn = countIn + 1;
+                }
+                else
+                {
+                    countOut = countOut + 1;
+                }
+            }
+
+            Console.WriteLine($"\n{countIn} in");
+            Console.WriteLine($"{countOut} out");
+
+        }*/
     }
 }
